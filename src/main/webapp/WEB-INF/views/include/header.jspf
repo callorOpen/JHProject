@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<link href="https://fonts.googleapis.com/css?family=Nova+Flat" rel="stylesheet">
+
+<style>
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-image: url("/jhproject/images/image_shop/main_back.jpg");
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  color:white;
+  text-align: center;
+  background-image: url("/jhproject/images/image_shop/01.jpg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.header h1 {
+  font-size: 50px;
+  font-family: 'Nova Flat', cursive;
+}
+
+</style>
+
+<header class="header" id="header">
+  <h1>TRAVEL WITH YOUR DOG</h1>
+  <p>Have a great time with your adorable dog:)!</p>
+</header>
